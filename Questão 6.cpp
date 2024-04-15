@@ -8,12 +8,11 @@ float areacircunferencia(float r);
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	float r, a;
-	printf(">>>Cálculo da área da circunferência<<<");
+	printf(">>>CÃ¡lculo da Ã¡rea da circunferÄ™ncia<<<");
 	printf("\n\nDigite o valor do raio: ");
 	scanf("%f", &r);
 	
-	a = areacircunferencia(r);
-	printf("\nA área da circunferência é: %.1f", a);
+	printf("\nA Ã¡rea da circunferÄ™ncia Ã©: %.1f", areacircunferencia(r));
 	
 	return(0);
 }
