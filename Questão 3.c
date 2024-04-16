@@ -6,7 +6,7 @@ void parimpar(int v);
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	int n; 
-	printf("Digite um número inteiro: ");
+	printf("Digite um nÃºmero inteiro: ");
 	scanf("%i", &n);
 	
 	parimpar(n);
@@ -16,8 +16,8 @@ int main(){
 
 void parimpar(int v){
 	if(v % 2 == 0){
-		printf("\n%i é par.", v);
+		printf("\n%i Ã© par.", v);
 	} else{
-		printf("\n%i é impar.", v);
+		printf("\n%i Ã© impar.", v);
 	}
 }
