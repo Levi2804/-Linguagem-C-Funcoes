@@ -16,8 +16,8 @@ int main(){
 
 void maiormenoridade(int v){
 	if(v > 18){
-		printf("\nVocê é maior de idade!");
+		printf("\nVocÃª Ã© maior de idade!");
 	} else{
-		printf("\nVocê é menor de idade!");
+		printf("\nVocÃª Ã© menor de idade!");
 	}
 }
