@@ -6,7 +6,7 @@ void verificaZero(int v);
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	int n; 
-	printf("Digite um número inteiro: ");
+	printf("Digite um nÃºmero inteiro: ");
 	scanf("%i", &n);
 	
 	verificaZero(n);
@@ -16,8 +16,8 @@ int main(){
 
 void verificaZero(int v){
 	if(v == 0){
-		printf("\n0 é igual a 0.");
+		printf("\n0 Ã© igual a 0.");
 	} else{
-		printf("\n%i não é igual a 0.", v);
+		printf("\n%i nÃ£o Ã© igual a 0.", v);
 	}
 }
