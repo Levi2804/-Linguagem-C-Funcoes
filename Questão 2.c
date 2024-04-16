@@ -6,7 +6,7 @@ void maiormenorneutro(int v);
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	int n; 
-	printf("Digite um número inteiro: ");
+	printf("Digite um nÃºmero inteiro: ");
 	scanf("%i", &n);
 	
 	maiormenorneutro(n);
@@ -16,10 +16,10 @@ int main(){
 
 void maiormenorneutro(int v){
 	if(v > 0){
-		printf("\n%i é positivo.", v);
+		printf("\n%i Ã© positivo.", v);
 	} else if(v == 0){
-		printf("\n0 é neutro.");
+		printf("\n0 Ã© neutro.");
 	} else{
-		printf("\n%i é negativo.", v);
+		printf("\n%i Ã© negativo.", v);
 	}
 }
