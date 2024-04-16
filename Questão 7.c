@@ -6,7 +6,7 @@ float volume(float c, float l, float a);
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	float c, l, a, v;
-	printf(">>>Cálculo do volume da caixa retangular<<<");
+	printf(">>>CÃ¡lculo do volume da caixa retangular<<<");
 	printf("\n\n=================================");
 	printf("\nDigite o valor do comprimento: ");
 	scanf("%f", &c);
@@ -17,7 +17,7 @@ int main(){
 	
 	v = volume(c, l, a);
 	printf("\n=================================");
-	printf("\nO volume da caixa retangular é: %.1f", v);
+	printf("\nO volume da caixa retangular Ã©: %.1f", v);
 	
 	return(0);
 }
