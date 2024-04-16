@@ -6,15 +6,15 @@ int fatorial(int n);
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	int n, f;
-	printf(">>>Cálculo da área da circunferência<<<");
+	printf(">>>CÃ¡lculo da Ã¡rea da circunferÃªncia<<<");
 	
 	do{
-		printf("\n\nDigite um número inteiro positivo: ");
+		printf("\n\nDigite um nÃºmero inteiro positivo: ");
 		scanf("%i", &n);
 	}while(n < 0);
 	
 	f = fatorial(n);
-	printf("\nO fatorial de %i é %i", n, f);
+	printf("\nO fatorial de %i Ã© %i", n, f);
 	
 	return(0);
 }
