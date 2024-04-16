@@ -6,7 +6,7 @@ void multiplode5(int v);
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	int n; 
-	printf("Digite um número inteiro: ");
+	printf("Digite um nÃºmero inteiro: ");
 	scanf("%i", &n);
 	
 	multiplode5(n);
@@ -16,8 +16,8 @@ int main(){
 
 void multiplode5(int v){
 	if(v % 5 == 0){
-		printf("\n%i é multiplo de 5", v);
+		printf("\n%i Ã© multiplo de 5", v);
 	} else{
-		printf("\n%i não é multiplo de 5", v);
+		printf("\n%i nÃ£o Ã© multiplo de 5", v);
 	}
 }
